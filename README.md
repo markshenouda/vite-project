@@ -7,6 +7,48 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
+---
+
+## About This Project
+
+This project was created using [Vite](https://vitejs.dev/) as the build tool, [React](https://react.dev/) as the UI framework, and [TypeScript](https://www.typescriptlang.org/) for type safety. This combination offers lightning-fast development startup, hot module replacement (HMR), and scalable code quality.
+
+- **Build Tool:** Vite
+- **UI Library:** React
+- **Language:** TypeScript
+- **Linting:** ESLint (with recommended and type-aware configs)
+- **Fast Refresh:** Enabled out of the box
+
+---
+
+## Project Structure
+
+- `src/` — Main application source code
+- `public/` — Public assets
+- `index.html` — Main HTML file
+- `vite.config.ts` — Vite configuration
+
+---
+
+## Getting Started
+
+1. **Install dependencies**
+   ```bash
+   npm install
+   ```
+2. **Run the development server**
+   ```bash
+   npm run dev
+   ```
+3. **Build for production**
+   ```bash
+   npm run build
+   ```
+
+For more available scripts, refer to the [`package.json`](./package.json) file.
+
+---
+
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
@@ -52,3 +94,18 @@ export default tseslint.config({
   },
 })
 ```
+
+---
+
+## Resources
+
+- [Vite Documentation](https://vitejs.dev/guide/)
+- [React Documentation](https://react.dev/learn)
+- [TypeScript Documentation](https://www.typescriptlang.org/docs/)
+- [ESLint Documentation](https://eslint.org/docs/latest/)
+
+---
+
+## License
+
+This project is licensed under the MIT License.
