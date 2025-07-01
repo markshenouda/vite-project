@@ -1,0 +1,1 @@
+This folder contains placeholder images for Pizza Palace, Sushi World, Taco Fiesta, Hero Food, and the app logo to meet branding requirements.
